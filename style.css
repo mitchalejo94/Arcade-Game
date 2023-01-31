@@ -1,0 +1,50 @@
+body {
+  background-color: #8d99ae;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+h1 {
+  color: #576490;
+  font-size: 60px;
+  text-decoration: underline;
+}
+h2 {
+  color: #576490;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  color: #576490;
+}
+button {
+  background-color: #576490;
+  color: #e0e1dd;
+  scroll-padding-top: 10px;
+  font-size: 20px;
+}
+button:hover {
+  font-size: larger;
+}
+#message {
+  font-size: 30px;
+}
+
+#board {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+.cell {
+  border: 1.5px solid black;
+  font-size: 80px;
+  background-color: #576490;
+  color: #e0e1dd;
+  font-weight: bolder;
+}
